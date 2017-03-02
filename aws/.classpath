@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="/Users/ratha/aws-java-sdk/1.11.66/lib/aws-java-sdk-1.11.66.jar" sourcepath="/Users/ratha/aws-java-sdk/1.11.66/lib/aws-java-sdk-1.11.66-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="/Users/ratha/.p2/pool/plugins/com.amazonaws.eclipse.lambda_1.0.0.v201612010009/lambda-runtime-jar/aws-lambda-java-core-1.0.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/ratha/eclipse/jee-mars/Eclipse.app/Contents/MacOS/../../../../../.p2/pool/plugins/com.amazonaws.eclipse.lambda_1.0.0.v201612010009/lambda-runtime-jar/aws-lambda-java-core-1.0.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="/Users/ratha/.p2/pool/plugins/com.amazonaws.eclipse.lambda_1.0.0.v201612010009/lambda-runtime-jar/aws-lambda-java-events-1.1.0.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="jar:file:/Users/ratha/eclipse/jee-mars/Eclipse.app/Contents/MacOS/../../../../../.p2/pool/plugins/com.amazonaws.eclipse.lambda_1.0.0.v201612010009/lambda-runtime-jar/aws-lambda-java-events-1.1.0-javadoc.jar!/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/ratha/.m2/repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+			<attribute name="maven.groupId" value="com.google.code.gson"/>
+			<attribute name="maven.artifactId" value="gson"/>
+			<attribute name="maven.version" value="2.2.4"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/ratha/.m2/repository/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.archivename" value="opencsv-2.3.jar"/>
+			<attribute name="maven.groupId" value="net.sf.opencsv"/>
+			<attribute name="maven.artifactId" value="opencsv"/>
+			<attribute name="maven.version" value="2.3"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/Users/ratha/.m2/repository/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.archivename" value="commons-lang3-3.4.jar"/>
+			<attribute name="maven.groupId" value="org.apache.commons"/>
+			<attribute name="maven.artifactId" value="commons-lang3"/>
+			<attribute name="maven.version" value="3.4"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
